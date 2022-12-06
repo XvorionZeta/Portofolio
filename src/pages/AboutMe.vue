@@ -1,10 +1,10 @@
 <template>
     <div class="flex justify-center h-screen">
         <div class="flex justify-start flex-col mx-auto mt-[20vh] max-w-4xl gap-7 pr-8">
-            <h3 class="text-3xl text-slate-100 font-bold">About Me</h3>
+            <h3 class="text-3xl font-bold text-slate-100">About Me</h3>
             <div class="grid grid-cols-2 gap-6">
                 <div class="max-w-[56ch]">
-                    <p class="text-slate-400 text-lg"> Hello, My name is Zulfikar Hidayatullah, i’m a full
+                    <p class="text-lg text-slate-400"> Hello, My name is Zulfikar Hidayatullah, i’m a full
                         stack
                         web
                         developer, from high school i enjoy creating innovation and doing some data analytic in my
@@ -12,38 +12,39 @@
                         admire how fast technology have developed in present so i decided to learn how to create thing
                         and
                         that lead me to learn web developing.</p>
-                    <p class="text-slate-400 max-w-sm text-lg mt-6">
+                    <p class="max-w-sm mt-6 text-lg text-slate-400">
                         And so in the past 7 Years i have build several project for <span
-                            class="text-cyan-400 font-medium">start
-                            ups</span> and some big company like <span class="text-cyan-400 font-medium">PERUM
+                            class="font-medium text-cyan-400">start
+                            ups</span> and some big company like <span class="font-medium text-cyan-400">PERUM
                             PERURI</span>.
                     </p>
 
-                    <p class="text-slate-400 max-w-sm text-lg mt-6">
+                    <p class="max-w-sm mt-6 text-lg text-slate-400">
                         Here are some technology that i working with in my project :
                     <ul>
-                        <li class="text-slate-400 max-w-sm  pl-4 pt-4 flex gap-4">
-                            <div class="rounded-full bg-cyan-400 p-1 w-1 h-1 my-auto"></div> PHP (Vanilla,Laravel,CI)
+                        <li class="flex max-w-sm gap-4 pt-4 pl-4 text-slate-300">
+                            <div class="w-1 h-1 p-1 my-auto rounded-full bg-cyan-400"></div> PHP 
+                            <span class="font-bold text-slate-300">(Vanilla,Laravel,CI)</span>
                         </li>
-                        <li class="text-slate-400 max-w-sm pl-4 pt-2 flex gap-4">
-                            <div class="rounded-full bg-cyan-400 p-1 w-1 h-1 my-auto"></div> CSS
-                            (Vanilla,Tailwind,Bootstrap)
+                        <li class="flex max-w-sm gap-4 pt-2 pl-4 text-slate-300">
+                            <div class="w-1 h-1 p-1 my-auto rounded-full bg-cyan-400"></div> CSS
+                            <span class="font-bold text-slate-300">(Vanilla,Tailwind,Bootstrap)</span>
                         </li>
-                        <li class="text-slate-400 max-w-sm  pl-4 pt-2 flex gap-4">
-                            <div class="rounded-full bg-cyan-400 p-1 w-1 h-1 my-auto"></div> JS
-                            (Vanilla,Vue,Alpine)
+                        <li class="flex max-w-sm gap-4 pt-2 pl-4 text-slate-300">
+                            <div class="w-1 h-1 p-1 my-auto rounded-full bg-cyan-400"></div> JS
+                            <span class="font-bold text-slate-300">(Vanilla,Vue,Alpine)</span>
                         </li>
-                        <li class="text-slate-400 max-w-sm  pl-4 pt-2 flex gap-4">
-                            <div class="rounded-full bg-cyan-400 p-1 w-1 h-1 my-auto"></div> Swift
+                        <li class="flex max-w-sm gap-4 pt-2 pl-4 text-slate-300">
+                            <div class="w-1 h-1 p-1 my-auto rounded-full bg-cyan-400"></div> Swift
                         </li>
-                        <li class="text-slate-400 max-w-sm  pl-4 pt-2 flex gap-4">
-                            <div class="rounded-full bg-cyan-400 p-1 w-1 h-1 my-auto"></div> Flutter
+                        <li class="flex max-w-sm gap-4 pt-2 pl-4 text-slate-300">
+                            <div class="w-1 h-1 p-1 my-auto rounded-full bg-cyan-400"></div> Flutter
                         </li>
                     </ul>
                     </p>
                 </div>
                 <div>
-                    <img src="../../public/FotoProfile.jpeg" class="rounded-2xl max-w-xs mx-auto">
+                    <img src="/FotoProfile.jpeg" class="max-w-xs mx-auto rounded-2xl">
                 </div>
             </div>
         </div>
